@@ -7,8 +7,8 @@ VCClient for Zeroshot VC (alpha)
 # Usage
 
 ```
-git clone <repo_url>
-cd <repo_dir>
+git clone https://github.com/w-okada/vcclient-for-zeroshot-server.git
+cd vcclient-for-zeroshot-server
 cd third_party
 git clone https://github.com/Plachtaa/seed-vc.git 
 cd seed-vc
