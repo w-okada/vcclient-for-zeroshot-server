@@ -2,6 +2,10 @@ VCClient for Zeroshot VC (alpha)
 ---
 
 # Requirement
+## Hardware
+- NVIDIA GPU
+
+## Software
 - poetry
 
 # Usage
