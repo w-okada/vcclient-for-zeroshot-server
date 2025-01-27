@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "vcclient-for-zeroshot-server"
+version = "0.1.0"
+description = ""
+authors = ["wok <wok@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12,<3.13"
+torch = {version = "^2.5.1+cu121", source = "torch_cu121"}
+torchvision = {version = "^0.20.1+cu121", source = "torch_cu121"}
+torchaudio = {version = "^2.5.1+cu121", source = "torch_cu121"}
+llvmlite = "^0.43.0"
+scipy = "1.13.1"
+librosa = "0.10.2"
+huggingface-hub = "^0.26.3"
+munch = "^4.0.0"
+einops = "^0.8.0"
+descript-audio-codec = "^1.0.0"
+webrtcvad = "^2.0.10"
+gradio = "^5.7.1"
+pydub = "^0.25.1"
+resemblyzer = "^0.1.4"
+jiwer = "^3.0.5"
+transformers = "^4.46.3"
+freesimplegui = "^5.1.1"
+soundfile = "^0.12.1"
+sounddevice = "^0.5.1"
+modelscope = "^1.20.1"
+funasr = "^1.1.16"
+fire = "^0.7.0"
+ngrok = "^1.4.0"
+portpicker = "^1.6.0"
+pyopenssl = "^24.3.0"
+python-socketio = "^5.11.4"
+simple-performance-timer = "^0.1.3"
+pythonnet = "^3.0.4"
+samplerate = "^0.2.1"
+silero-vad = "^5.1.2"
+
+[[tool.poetry.source]]
+name = "torch_cu121"
+url = "https://download.pytorch.org/whl/cu121"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+main = "vcclient_for_zeroshot_server.main:main"

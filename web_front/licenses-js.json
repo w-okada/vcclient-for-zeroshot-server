@@ -1,0 +1,241 @@
+{
+  "MIT": [
+    {
+      "name": "@eslint-community/eslint-utils@4.4.1",
+      "repository": "https://github.com/eslint-community/eslint-utils",
+      "licenseURL": ""
+    },
+    {
+      "name": "@eslint-community/regexpp@4.12.1",
+      "repository": "https://github.com/eslint-community/regexpp",
+      "licenseURL": ""
+    },
+    {
+      "name": "@eslint/eslintrc@3.2.0",
+      "repository": "https://github.com/eslint/eslintrc",
+      "licenseURL": ""
+    },
+    {
+      "name": "@eslint/js@9.19.0",
+      "repository": "https://github.com/eslint/eslint",
+      "licenseURL": ""
+    },
+    {
+      "name": "@types/node@22.10.10",
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+      "licenseURL": ""
+    },
+    {
+      "name": "@types/react-dom@19.0.3",
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+      "licenseURL": ""
+    },
+    {
+      "name": "@types/react@19.0.8",
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+      "licenseURL": ""
+    },
+    {
+      "name": "@typescript-eslint/eslint-plugin@8.21.0",
+      "repository": "https://github.com/typescript-eslint/typescript-eslint",
+      "licenseURL": ""
+    },
+    {
+      "name": "@typescript-eslint/parser@8.21.0",
+      "repository": "https://github.com/typescript-eslint/typescript-eslint",
+      "licenseURL": ""
+    },
+    {
+      "name": "@typescript-eslint/scope-manager@8.21.0",
+      "repository": "https://github.com/typescript-eslint/typescript-eslint",
+      "licenseURL": ""
+    },
+    {
+      "name": "@typescript-eslint/type-utils@8.21.0",
+      "repository": "https://github.com/typescript-eslint/typescript-eslint",
+      "licenseURL": ""
+    },
+    {
+      "name": "@typescript-eslint/types@8.21.0",
+      "repository": "https://github.com/typescript-eslint/typescript-eslint",
+      "licenseURL": ""
+    },
+    {
+      "name": "@typescript-eslint/typescript-estree@8.21.0",
+      "repository": "https://github.com/typescript-eslint/typescript-eslint",
+      "licenseURL": ""
+    },
+    {
+      "name": "@typescript-eslint/utils@8.21.0",
+      "repository": "https://github.com/typescript-eslint/typescript-eslint",
+      "licenseURL": ""
+    },
+    {
+      "name": "@typescript-eslint/visitor-keys@8.21.0",
+      "repository": "https://github.com/typescript-eslint/typescript-eslint",
+      "licenseURL": ""
+    },
+    {
+      "name": "@vanilla-extract/css@1.17.0",
+      "repository": "https://github.com/vanilla-extract-css/vanilla-extract",
+      "licenseURL": ""
+    },
+    {
+      "name": "@vanilla-extract/recipes@0.5.5",
+      "repository": "https://github.com/vanilla-extract-css/vanilla-extract",
+      "licenseURL": ""
+    },
+    {
+      "name": "@vanilla-extract/vite-plugin@4.0.19",
+      "repository": "https://github.com/vanilla-extract-css/vanilla-extract",
+      "licenseURL": ""
+    },
+    {
+      "name": "@vitejs/plugin-react-swc@3.7.2",
+      "repository": "https://github.com/vitejs/vite-plugin-react-swc",
+      "licenseURL": ""
+    },
+    {
+      "name": "eslint-plugin-react-hooks@5.1.0",
+      "repository": "https://github.com/facebook/react",
+      "licenseURL": ""
+    },
+    {
+      "name": "eslint-plugin-react-refresh@0.4.18",
+      "repository": "https://github.com/ArnaudBarre/eslint-plugin-react-refresh",
+      "licenseURL": ""
+    },
+    {
+      "name": "eslint@9.19.0",
+      "repository": "https://github.com/eslint/eslint",
+      "licenseURL": ""
+    },
+    {
+      "name": "globals@15.14.0",
+      "repository": "https://github.com/sindresorhus/globals",
+      "licenseURL": ""
+    },
+    {
+      "name": "i18next-browser-languagedetector@8.0.2",
+      "repository": "https://github.com/i18next/i18next-browser-languageDetector",
+      "licenseURL": ""
+    },
+    {
+      "name": "i18next-http-backend@3.0.2",
+      "repository": "https://github.com/i18next/i18next-http-backend",
+      "licenseURL": ""
+    },
+    {
+      "name": "i18next@24.2.2",
+      "repository": "https://github.com/i18next/i18next",
+      "licenseURL": ""
+    },
+    {
+      "name": "react-dom@19.0.0",
+      "repository": "https://github.com/facebook/react",
+      "licenseURL": ""
+    },
+    {
+      "name": "react-error-boundary@5.0.0",
+      "repository": "https://github.com/bvaughn/react-error-boundary",
+      "licenseURL": ""
+    },
+    {
+      "name": "react-i18next@15.4.0",
+      "repository": "https://github.com/i18next/react-i18next",
+      "licenseURL": ""
+    },
+    {
+      "name": "react-icons@5.4.0",
+      "repository": "https://github.com/react-icons/react-icons",
+      "licenseURL": ""
+    },
+    {
+      "name": "react-toastify@11.0.3",
+      "repository": "https://github.com/fkhadra/react-toastify",
+      "licenseURL": ""
+    },
+    {
+      "name": "react@19.0.0",
+      "repository": "https://github.com/facebook/react",
+      "licenseURL": ""
+    },
+    {
+      "name": "typescript-eslint@8.21.0",
+      "repository": "https://github.com/typescript-eslint/typescript-eslint",
+      "licenseURL": ""
+    },
+    {
+      "name": "vite@6.0.11",
+      "repository": "https://github.com/vitejs/vite",
+      "licenseURL": ""
+    }
+  ],
+  "Apache-2.0": [
+    {
+      "name": "@eslint/config-array@0.19.0",
+      "repository": "https://github.com/eslint/rewrite",
+      "licenseURL": ""
+    },
+    {
+      "name": "@eslint/core@0.10.0",
+      "repository": "https://github.com/eslint/rewrite",
+      "licenseURL": ""
+    },
+    {
+      "name": "@eslint/object-schema@2.1.4",
+      "repository": "https://github.com/eslint/rewrite",
+      "licenseURL": ""
+    },
+    {
+      "name": "@eslint/plugin-kit@0.2.5",
+      "repository": "https://github.com/eslint/rewrite",
+      "licenseURL": ""
+    },
+    {
+      "name": "eslint-visitor-keys@4.2.0",
+      "repository": "https://github.com/eslint/js",
+      "licenseURL": ""
+    },
+    {
+      "name": "typescript@5.7.3",
+      "repository": "https://github.com/microsoft/TypeScript",
+      "licenseURL": ""
+    }
+  ],
+  "Apache-2.0 OR MIT": [
+    {
+      "name": "@tauri-apps/cli@2.1.0",
+      "repository": "https://github.com/tauri-apps/tauri",
+      "licenseURL": ""
+    }
+  ],
+  "BSD-2-Clause": [
+    {
+      "name": "eslint-scope@8.2.0",
+      "repository": "https://github.com/eslint/js",
+      "licenseURL": ""
+    }
+  ],
+  "BSD-3-Clause": [
+    {
+      "name": "highlight.js@11.11.1",
+      "repository": "https://github.com/highlightjs/highlight.js",
+      "licenseURL": ""
+    }
+  ],
+  "Custom: https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md": [
+    {
+      "name": "vcclient-client-lib-for-seed-vc@0.0.3",
+      "repository": "",
+      "licenseURL": ""
+    }
+  ],
+  "UNLICENSED": [
+    {
+      "name": "vcclient-client@0.0.0",
+      "repository": "",
+      "licenseURL": ""
+    }
+  ]
+}

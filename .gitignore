@@ -1,1 +1,11 @@
+test_data
+test_output
+checkpoints
+.venv
 *.pyc
+vcclient.log
+
+
+models
+voice_characters
+settings
