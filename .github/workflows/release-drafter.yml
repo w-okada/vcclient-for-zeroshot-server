@@ -1,0 +1,45 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'  # 'v'で始まるすべてのタグでトリガーされます
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js (or any other environment if needed)
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'  # 必要に応じて変更
+
+    - name: Archive files
+      run: |
+        mkdir output
+        zip -r output/vcclient_for_zeroshot_server_installer.zip installer
+
+    - name: Create GitHub Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        draft: false
+        prerelease: false
+
+    - name: Upload Release Asset
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./output/vcclient_for_zeroshot_server_installer.zip
+        asset_name: vcclient_for_zeroshot_server_installer.zip
+        asset_content_type: application/zip
