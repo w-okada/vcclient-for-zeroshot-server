@@ -88,10 +88,3 @@ python -m pip install --upgrade pip==24.0
 pip install -e .
 pip uninstall -y torch torchvision torchaudio
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-
-@REM python vcclient_for_zeroshot_server/main.py
-
-@REM @REM echo.
-@REM @REM echo.
-@REM @REM pause
-@REM @REM exit
