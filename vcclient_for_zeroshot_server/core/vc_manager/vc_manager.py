@@ -10,7 +10,6 @@ from vcclient_for_zeroshot_server.core.configuration_manager.configuration_manag
 from vcclient_for_zeroshot_server.core.slot_manager.slot_manager import SlotManager
 
 from vcclient_for_zeroshot_server.core.vc_manager.pipeline.pipline_manager import PipelineManager
-from vcclient_for_zeroshot_server.core.vc_manager.utils.audio_splitter import Frame, tagging
 from vcclient_for_zeroshot_server.core.voice_character_slot_manager.voice_character_slot_manager import VoiceCharacterSlotManager
 import wave
 from scipy.io import wavfile

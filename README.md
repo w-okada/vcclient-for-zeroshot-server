@@ -21,3 +21,6 @@ cd ../..
 poetry install
 poetry run main start
 ```
+
+# Developper
+client: https://github.com/w-okada/vcclient-for-seed-vc
