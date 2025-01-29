@@ -1,1 +1,3 @@
-*.{bat,[bB][aA][tT]} text eol=crlf
+*.{bat,[bB][aA][tT]}    text eol=crlf
+
+
