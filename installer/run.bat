@@ -15,5 +15,3 @@ cd vcclient-for-zeroshot-server
 call venv\Scripts\activate.bat
 
 python vcclient_for_zeroshot_server/main.py start
-
-@REM echo.
