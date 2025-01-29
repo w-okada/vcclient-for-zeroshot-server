@@ -9,7 +9,6 @@ echo.
 echo  =================================================
 echo  VCClient for Zeroshot VC 
 echo  =================================================
-echo.
 
 cd vcclient-for-zeroshot-server
 call venv\Scripts\activate.bat
