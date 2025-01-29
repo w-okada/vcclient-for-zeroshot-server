@@ -5,6 +5,9 @@ on:
     tags:
       - 'v*'  # 'v'で始まるすべてのタグでトリガーされます
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
